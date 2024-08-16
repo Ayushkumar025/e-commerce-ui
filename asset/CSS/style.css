@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+    padding: .5rem  1rem;
+    background: skyblue;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/* navbar */
+/* nav-top */
+.navbar .nav-top{
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navbar .nav-top span{
+    background-color: rgb(231, 248, 255);
+}
+
+/* nav-bottom */
+.navbar .nav-bottom{
+    background-color: rgb(1, 53, 73);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.navbar .nav-bottom .logo .logo-text{
+    color: skyblue;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.navbar .nav-bottom .logo .logo-text span{
+    color: rgb(231, 248, 255);
+}
+
+.navbar .nav-bottom .options{
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+    /* width: 100%; */
+    font-size: large;
+}
+
+.navbar .nav-bottom .options li{
+    padding: 0 30px;
+}
+
+/* slider-content */
+.slider-content{
+    display: flex;
+    background-color: rgb(231, 248, 255);
+}
+.slider-content .content{
+    text-align: justify;
+    font-size: large;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.slider-content .content .shop-now{
+    padding-top: 20px;
+    display: flex;
+}
+
+.slider-content .content .shop-now a:hover{
+    background: rgb(1, 53, 73);
+    color: white;
+}
+
+.slider-content .content .shop-now .shop-women{
+    padding-left: 20px;
+}
+
+.slider-content .image img{
+    width: 600px;
+    height: 500px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* side-bar */
+.side-bar{
+    background: rgb(97, 105, 109);
+}
+.side-bar .types{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.side-bar .types li{
+    padding: 0 40px;
+}
+
+
+
+/* popular-product-lists */
+.popular .heading{
+    display: flex;
+    background: antiquewhite;
+}
+
+.popular .heading .part-1{
+    color: rgb(7, 69, 110);
+}
+
+.popular .heading .part-2{
+    padding-left: 67%;
+    padding-top: 10px;
+}
+
+.popular .heading .part-2 a{
+    padding: .5rem  1rem;
+    background: skyblue;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.popular .heading a:hover{
+    color: white;
+    background: rgb(1, 53, 73);
+}
+
+.popular .container .top-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.popular .container .bottom-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+/* recent-posts */
+.new-arrivals .recents{
+    display: flex;
+    background: antiquewhite;
+}
+
+.new-arrivals .recents .part-i{
+    color: rgb(7, 69, 110);
+}
+
+.new-arrivals .recents .part-ii{
+    padding-left: 67%;
+    padding-top: 10px;
+}
+
+.new-arrivals .recents .part-ii a{
+    padding: .5rem  1rem;
+    background: skyblue;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.new-arrivals .recents a:hover{
+    color: white;
+    background: rgb(1, 53, 73);
+}
+
+.new-arrivals .container .top-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.new-arrivals .container .bottom-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+/* footer */
+.footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
