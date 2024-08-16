@@ -20,7 +20,8 @@ a{
 /* navbar */
 /* nav-top */
 .navbar .nav-top{
-    background-color: skyblue;
+    background-color:white;
+    color:black;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -28,15 +29,16 @@ a{
 }
 
 .navbar .nav-top span{
-    background-color: rgb(231, 248, 255);
+    background-color: wheat;
 }
 
 /* nav-bottom */
 .navbar .nav-bottom{
-    background-color: rgb(1, 53, 73);
+    background-color:black;
     display: flex;
-    justify-content: space-between;
-    height: 50px;
+    color: white;
+    justify-content: space-around;
+    height: 70px;
 }
 
 .navbar .nav-bottom .logo .logo-text{
@@ -98,7 +100,7 @@ a{
 
 /* side-bar */
 .side-bar{
-    background: rgb(97, 105, 109);
+    background: white;
 }
 .side-bar .types{
     display: flex;
@@ -144,6 +146,10 @@ a{
     background: rgb(1, 53, 73);
 }
 
+.popular .container{
+    padding: 30px 30px;
+}
+
 .popular .container .top-container{
     display: flex;
     justify-content: space-between;
@@ -184,6 +190,10 @@ a{
     background: rgb(1, 53, 73);
 }
 
+.new-arrivals .container{
+    padding: 30px 30px;
+}
+
 .new-arrivals .container .top-container{
     display: flex;
     justify-content: space-between;
@@ -196,9 +206,52 @@ a{
     padding-top: 10px;
 }
 
+/* user-testimonials */
+.user .head{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.user .head h1 span{
+    color: wheat;
+}
+
+.user .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 50px 50px;
+}
+
+.user .container .testimonials{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.user .container .testimonials img{
+    border-radius: 10px;
+}
+
+/* do's and don't*/
+.Container{
+    position: relative;
+}
+
+.Container .text{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+
 /* footer */
 .footer{
     background-color: gray;
+    height: 100px;
     color: white;
     text-align: center;
+    padding-top: 40px;
 }
